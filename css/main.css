@@ -1,0 +1,179 @@
+/* ESTILO GLOBAL */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Kanit', sans-serif;
+ text-decoration: none;
+}
+body{
+    background-image: linear-gradient(45deg, #06111a, #263038);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+/* HEADER STYLE */
+
+header{
+    padding: 40px 5%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* HEADER LINKS */
+
+header a{
+    color: #ffffffe1;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: .1s;
+}
+
+header a:hover{
+    color: #189199;
+    transform: scale(1.05) ;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+    
+}
+/* HEADER LINKS */
+
+/* ESTILO BOTÃO */
+#btn{
+    border: 2px solid #189199;
+    padding: 10px 40px;
+    border-radius: 10px 10px ;
+}
+
+#btn:hover{
+    background-color: #189199;
+    color: white;
+    transition: 1.0s;
+
+}
+/* ESTILO BOTÃO */
+
+/* HOME */
+
+/* SECTION HOME */
+section.home{
+    padding: 40px 5%;
+}
+
+section.home .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+/* SECTION HOME */
+
+
+
+/* TEXTS HOME */
+.home h1{
+    color: white;
+    font-weight: 450;
+    font-size: 60px;
+    line-height: 0.7;
+}
+.home p{
+    color: #189199;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+
+
+/* TEXTS HOME */
+
+/* REDES HOME */
+.redes{
+    position: absolute;
+}
+
+.redes a{
+    
+    display: inline flex;
+    width: 40px;
+    height: 40px;
+    background: #263038;
+    color: #ffffff;
+    margin: 0 0px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 18px;
+    
+}
+
+.redes a:hover{
+    color: #189199;
+}
+
+.redes a:hover > i{
+    transform: scale(1.1) ;
+}
+/* REDES HOME */
+
+
+/* IMG HOME */
+
+.img-home{
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(25px);
+    }
+}
+
+
+
+/* IMG HOME */
+
+
+
+
+/* BOTÃO DE CV */
+#donwload{
+    border: 2px solid #189199;
+    background-color: #ffffff00;
+    color: #ffffff;
+    padding: 7px ;
+    border-radius: 8px;
+    font-size: 17px;
+}
+#donwload:hover{
+    color: #189199;
+}
+/* BOTÃO DE CV */
+
+
