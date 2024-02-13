@@ -205,3 +205,29 @@ section.home .flex {
 
 
 /* SOBRE MIM */
+
+.txt-about{
+    align-self: center;
+    
+}
+
+
+h2{
+    color: #189199;
+    font-weight: 370;
+    font-size: 35px;
+    text-align: center;
+}
+
+.txt-about p{
+    color: #ffffff;
+    margin-block: 2.5rem;
+    line-height: 140%;
+    display: block;
+    width: 70%;
+    align-items: center;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: justify;
+    
+}
