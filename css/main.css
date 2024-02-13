@@ -1,5 +1,4 @@
 /* ESTILO GLOBAL */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,6 @@
     font-family: 'Kanit', sans-serif;
     text-decoration: none;
 }
-
 /* ESTILO GLOBAL */
 
 /* BODY */
@@ -17,8 +15,6 @@ body {
     background-attachment: fixed;
 }
 
-
-
 .interface {
     max-width: 1280px;
     margin: 0 auto;
@@ -27,8 +23,8 @@ body {
 .flex {
     display: flex;
 }
-
 /* BODY */
+
 
 /* HEADER STYLE */
 
@@ -44,13 +40,11 @@ header>.interface {
     align-items: center;
     justify-content: space-between;
 }
-
 /* HEADER MENU */
 
 
 
 /* HEADER LINKS */
-
 header a {
     color: #ffffffe1;
     text-decoration: none;
@@ -64,7 +58,6 @@ header a:hover {
     transform: scale(1.05);
 }
 
-
 header nav ul {
     list-style: none;
 }
@@ -72,9 +65,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     padding: 0 30px;
-
 }
-
 /* HEADER LINKS */
 
 /* ESTILO BOTÃO */
@@ -82,15 +73,13 @@ header nav ul li {
     border: 2px solid #189199;
     padding: 10px 40px;
     border-radius: 10px 10px;
+    transition: 0.5s
 }
 
 #btn:hover {
     background-color: #189199;
     color: white;
-    transition: 1.0s;
-
 }
-
 /* ESTILO BOTÃO */
 
 /* HOME */
@@ -105,9 +94,7 @@ section.home .flex {
     justify-content: center;
     gap: 90px;
 }
-
 /* SECTION HOME */
-
 
 
 /* TEXTS HOME */
@@ -124,9 +111,8 @@ section.home .flex {
     font-size: 30px;
     text-shadow: #189199 0px 0px 10px;
 }
-
-
 /* TEXTS HOME */
+
 
 /* REDES HOME */
 .redes {
@@ -146,7 +132,6 @@ section.home .flex {
     align-items: center;
     transition: 0.4s;
     font-size: 18px;
-
 }
 
 .redes a:hover {
@@ -156,12 +141,10 @@ section.home .flex {
 .redes a:hover>i {
     transform: scale(1.1);
 }
-
 /* REDES HOME */
 
 
 /* IMG HOME */
-
 .img-home {
     animation: float 3s ease-in-out infinite;
 }
@@ -177,9 +160,6 @@ section.home .flex {
         transform: translateY(25px);
     }
 }
-
-
-
 /* IMG HOME */
 
 
@@ -206,28 +186,47 @@ section.home .flex {
 
 /* SOBRE MIM */
 
-.txt-about{
-    align-self: center;
-    
+/* ESTILO SEÇÃO "SOBRE" */
+section.about-me{
+    padding: 40px 4%;
 }
 
-
-h2{
-    color: #189199;
-    font-weight: 370;
-    font-size: 35px;
-    text-align: center;
-}
-
-.txt-about p{
-    color: #ffffff;
-    margin-block: 2.5rem;
-    line-height: 140%;
-    display: block;
-    width: 70%;
+section.about-me .flex{
     align-items: center;
+    gap: 100px;
+}
+/* ESTILO SEÇÃO "SOBRE" */
+
+/* FOTO */
+.minha-foto img{
+    border-radius: 15px;
+    box-shadow: #189199 0px 0px 20px;
+    transition: 1s;
+}
+
+.minha-foto img:hover{
+    transform: scale(1.1);
+}
+/* FOTO */
+
+/* TEXTO ABOUT ME */
+.about-me .txt-about{
+    color: #ffffff;
+}
+
+.about-me .txt-about h2{
+    color: #189199;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-me .txt-about p{
     font-weight: 200;
     font-size: 20px;
     text-align: justify;
-    
+    width: 90%;
 }
+/* TEXTO ABOUT ME*/
+/* SOBRE MIM */
+
