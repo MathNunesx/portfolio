@@ -46,3 +46,10 @@ GITHUB: <svg xmlns="http://www.w3.org/2000/svg" height="16" width="15.5" viewBox
 
 
 robozin licença <a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by juicy_fish - Flaticon</a>
+
+
+<i class="fa-brands fa-html5"></i>
+
+<i class="fa-brands fa-css3-alt"></i>
+
+<i class="fa-brands fa-js"></i>
