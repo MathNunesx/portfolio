@@ -53,3 +53,15 @@ robozin licença <a href="https://www.flaticon.com/free-icons/robot" title="robo
 <i class="fa-brands fa-css3-alt"></i>
 
 <i class="fa-brands fa-js"></i>
+
+/* COLORS LOGO */
+/* #html{
+    color: #e34c26;
+}
+#css{
+    color: #264de4;
+}
+#js{
+    color: #F0DB4F;
+} */
+/* COLORS LOGO */
