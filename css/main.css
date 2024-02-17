@@ -7,13 +7,14 @@
     text-decoration: none;
 }
 
-h2.titulos{
+h2.titulos {
     color: #189199;
     font-size: 40px;
     text-align: center;
     font-weight: 400;
     padding: 40px;
 }
+
 /* ESTILO GLOBAL */
 
 /* BODY */
@@ -31,6 +32,7 @@ body {
 .flex {
     display: flex;
 }
+
 /* BODY */
 
 
@@ -48,6 +50,7 @@ header>.interface {
     align-items: center;
     justify-content: space-between;
 }
+
 /* HEADER MENU */
 
 
@@ -74,6 +77,7 @@ header nav ul li {
     display: inline-block;
     padding: 0 30px;
 }
+
 /* HEADER LINKS */
 
 /* ESTILO BOTÃO */
@@ -88,20 +92,23 @@ header nav ul li {
     background-color: #189199;
     color: white;
 }
+
 /* ESTILO BOTÃO */
 
 /* HOME */
 
 /* SECTION HOME */
 section.home {
-    padding: 80px 5%;
+    padding-top: 150px;
+    height: 100vh;
 }
 
 section.home .flex {
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 80px;
 }
+
 /* SECTION HOME */
 
 
@@ -109,16 +116,17 @@ section.home .flex {
 .home h1 {
     color: white;
     font-weight: 450;
-    font-size: 60px;
+    font-size: 70px;
     line-height: 0.7;
 }
 
 .home p {
     color: #189199;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: #189199 0px 0px 10px;
 }
+
 /* TEXTS HOME */
 
 
@@ -130,8 +138,8 @@ section.home .flex {
 .redes a {
 
     display: inline flex;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: #263038;
     color: #ffffff;
     margin: 0 0px;
@@ -139,21 +147,25 @@ section.home .flex {
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .redes a:hover {
     color: #189199;
+    transition: 0.5s;
 }
+
 
 .redes a:hover>i {
     transform: scale(1.1);
 }
+
 /* REDES HOME */
 
 
 /* IMG HOME */
 .img-home {
+    filter: drop-shadow(5px 2px 2px rgb(24, 145, 153));
     animation: float 3s ease-in-out infinite;
 }
 
@@ -168,6 +180,7 @@ section.home .flex {
         transform: translateY(25px);
     }
 }
+
 /* IMG HOME */
 
 
@@ -175,16 +188,17 @@ section.home .flex {
 
 /* BOTÃO DE CV */
 #donwload {
-    border: 2px solid #189199;
+    border: 2px solid rgb(24, 145, 153);
     background-color: #ffffff00;
     color: #ffffff;
     padding: 7px;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 #donwload:hover {
     color: #189199;
+    transition: 0.5s;
 }
 
 /* BOTÃO DE CV */
@@ -195,60 +209,64 @@ section.home .flex {
 /* SOBRE MIM */
 
 /* ESTILO SEÇÃO "SOBRE" */
-section.about-me{
+section.about-me {
     padding: 40px 4%;
 }
 
-section.about-me .flex{
+section.about-me .flex {
     align-items: center;
     gap: 100px;
 }
+
 /* ESTILO SEÇÃO "SOBRE" */
 
 /* FOTO */
-.minha-foto img{
+.minha-foto img {
+    margin-top: 20px;
     border-radius: 15px;
     box-shadow: #189199 0px 0px 20px;
     transition: 1s;
 }
 
-.minha-foto img:hover{
+.minha-foto img:hover {
     transform: scale(1.1);
 }
+
 /* FOTO */
 
 /* TEXTO ABOUT ME */
-.about-me .txt-about{
+.about-me .txt-about {
     color: #ffffff;
 }
 
-.about-me .txt-about h2{
+.about-me .txt-about h2 {
     color: #189199;
     font-weight: 400;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.about-me .txt-about p{
+.about-me .txt-about p {
     font-weight: 200;
     font-size: 20px;
     text-align: justify;
     width: 90%;
 }
+
 /* TEXTO ABOUT ME*/
 /* SOBRE MIM */
 
 /* SKILLS */
 
-section.skills{
+section.skills {
     padding: 40px 4%;
 }
 
-section.skills .flex{
+section.skills .flex {
     gap: 60px;
 }
 
-.skills .skill-box{
+.skills .skill-box {
     color: white;
     padding: 40px;
     width: 30%;
@@ -259,27 +277,30 @@ section.skills .flex{
     box-shadow: #189199 0px 0px 8px;
 }
 
-.skills .skill-box:hover{
+.skills .skill-box:hover {
     transform: scale(1.05);
     background-color: #06111a9a;
     transition: 0.5s;
 }
 
-.skills .skill-box i{
+.skills .skill-box i {
     font-size: 80px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.616));
     color: #189199;
 }
 
-.skills .skill-box h3{
+.skills .skill-box h3 {
     font-size: 25px;
     font-weight: 400;
     margin-block: 25px;
 }
 
-.skills .skill-box p{
+.skills .skill-box p {
     font-size: 20px;
     font-weight: 200;
     text-align: justify;
 }
+
 /* SKILLS */
+
+/* PORJETOS */
