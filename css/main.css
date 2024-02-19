@@ -274,7 +274,7 @@ section.skills .flex {
     flex-grow: 1;
     border: 1px solid #06111a;
     border-radius: 20px;
-    box-shadow: #189199 0px 0px 8px;
+    box-shadow: rgb(24, 145, 153) 0px 0px 8px;
 }
 
 .skills .skill-box:hover {
@@ -302,5 +302,49 @@ section.skills .flex {
 }
 
 /* SKILLS */
+
+/* PORJETOS */
+
+section.projetos{
+    padding: 40px 4%;
+}
+
+section.projetos .flex{
+    gap: 60px;
+}
+
+.projetos .projetos-box{
+    color: white;
+    padding: 40px;
+    width: 30%;
+    margin-top: 50px;
+    flex-grow: 1;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) -2px 1px 10px;
+}
+
+.projetos .projetos-box:hover{
+    transform: scale(1.05);
+    background-color: #263038;
+    transition: 0.5s;
+}
+
+.projetos .projetos-box i{
+    font-size: 100px;
+    color: #189199;
+    padding: 30px;
+}
+
+.projetos .projetos-box h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-block: 20px;
+}
+
+.projetos .projetos-box p{
+    font-size: 20px;
+    font-weight: 200;
+}
 
 /* PORJETOS */
