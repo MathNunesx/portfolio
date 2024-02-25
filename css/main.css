@@ -347,4 +347,28 @@ section.projetos .flex{
     font-weight: 200;
 }
 
-/* PORJETOS */
+/* PROJETOS */
+
+/* CONTATO */
+
+section.contatos{
+    padding: 40px 4%;
+}
+
+.talk-to-me{
+    text-align: center;
+    padding: 50px;
+}
+
+.talk-to-me h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
