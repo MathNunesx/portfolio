@@ -361,9 +361,13 @@ section.contatos{
 }
 
 .talk-to-me h2{
-    color: #ffffff;
+    color: #ffffffab;
     font-size: 30px;
     font-weight: 400;
+}
+
+.talk-to-me span{
+    color: #189199;
 }
 
 .contact{
@@ -372,3 +376,31 @@ section.contatos{
     gap: 60px;
 }
 
+#wpp-btn{
+    border: 2px solid #18909993;
+    background-color: #ffffff00;
+    color: #189199;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+#wpp-btn:hover{
+    cursor: pointer;
+    background-color: #18909938;
+    border-color: #18909938;
+    transition: 0.5s;
+}
+
+.email h3{
+    color: #189199;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.email a{
+   color: #ffffffab;
+    font-size: 18px;
+    font-weight: 300;
+}
