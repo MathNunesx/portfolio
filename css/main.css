@@ -404,3 +404,8 @@ section.contatos{
     font-size: 18px;
     font-weight: 300;
 }
+
+.email a:hover{
+    color: #ffffff;
+}
+/* CONTATO */
