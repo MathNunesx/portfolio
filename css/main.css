@@ -42,7 +42,7 @@ body {
 /* HEADER MENU */
 header {
     padding: 20px 5%;
-    box-shadow: 0px 0px 10px;
+    box-shadow: 0px 2px 8px #189199;
 }
 
 header>.interface {
@@ -353,6 +353,7 @@ section.projetos .flex{
 
 section.contatos{
     padding: 40px 4%;
+    padding-bottom: 80px;
 }
 
 .talk-to-me{
@@ -409,3 +410,47 @@ section.contatos{
     color: #ffffff;
 }
 /* CONTATO */
+
+/* FOOTER */
+
+footer {
+    padding: 50px 4%;
+    box-shadow: 0px 2px 8px #189199;
+    
+}
+
+
+
+footer .flex{
+    justify-content: space-between;
+}
+
+.bloco-a h3{
+    color: #a09a9a;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.redes-rodape a{
+    display: inline flex;
+    width: 42px;
+    height: 42px;
+    background: #263038;
+    color: #ffffff;
+    margin: 0 0px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.4s; */
+    font-size: 18px;
+}
+
+.redes-rodape a:hover {
+    color: #189199;
+    transition: 0.5s;
+}
+
+
+.redes-rodaepe a:hover>i {
+    transform: scale(1.1);
+}
