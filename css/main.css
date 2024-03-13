@@ -78,6 +78,15 @@ header nav ul li {
     padding: 0 30px;
 }
 
+.logo h1{
+    font-family: "Dhurjati", sans-serif;
+    color: #ffffffb6;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: #189099b4 2px 2px 4px;
+   
+}
+
 /* HEADER LINKS */
 
 /* ESTILO BOTÃO */
@@ -211,6 +220,7 @@ section.home .flex {
 /* ESTILO SEÇÃO "SOBRE" */
 section.about-me {
     padding: 40px 4%;
+    padding-bottom: 10rem;
 }
 
 section.about-me .flex {
@@ -260,6 +270,7 @@ section.about-me .flex {
 
 section.skills {
     padding: 40px 4%;
+    padding-bottom: 7rem;
 }
 
 section.skills .flex {
@@ -303,10 +314,11 @@ section.skills .flex {
 
 /* SKILLS */
 
-/* PORJETOS */
+/* PROJETOS */
 
 section.projetos{
     padding: 40px 4%;
+    padding-bottom: 7rem;
 }
 
 section.projetos .flex{
@@ -353,12 +365,13 @@ section.projetos .flex{
 
 section.contatos{
     padding: 40px 4%;
-    padding-bottom: 80px;
+    padding-bottom: 7rem;
+    
 }
 
 .talk-to-me{
     text-align: center;
-    padding: 50px;
+    padding-bottom: 40px;
 }
 
 .talk-to-me h2{
