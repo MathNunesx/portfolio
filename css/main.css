@@ -105,7 +105,7 @@ header nav ul li {
 
 /* HEADER LINKS */
 
-/* ESTILO BOTÃO */
+/* ESTILO BOTÃO CONTATO */
 #btn {
     border: 2px solid #189199;
     padding: 10px 40px;
@@ -124,8 +124,9 @@ header nav ul li {
 
 /* SECTION HOME */
 section.home {
-    padding-top: 150px;
-    padding-bottom: 15rem;
+    padding: 40px 4%;
+    padding-top: 200px;
+    padding-bottom: 11rem;
 }
 
 section.home .flex {
@@ -169,7 +170,7 @@ section.home .flex {
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .redes a:hover {
@@ -217,6 +218,7 @@ section.home .flex {
     padding: 7px;
     border-radius: 8px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 #donwload:hover {
