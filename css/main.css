@@ -1,6 +1,12 @@
+/* SCROLL */
 html{
     scroll-behavior: smooth;
 }
+/* SCROLL */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* ESTILO GLOBAL */
 * {
@@ -11,6 +17,7 @@ html{
     text-decoration: none;
 }
 
+/* TITULOS GLOBAIS */
 h2.titulos {
     color: #189199;
     font-size: 40px;
@@ -18,30 +25,46 @@ h2.titulos {
     font-weight: 400;
     padding: 40px;
 }
+/* TITULOS GLOBAIS */
 
-/* ESTILO GLOBAL */
+
+/* FIM ESTILO GLOBAL */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* BODY */
+
+
+/* BODY STYLE */
 body {
     background-image: linear-gradient(45deg, #06111a, #263038);
     height: 100vh;
     background-attachment: fixed;
 }
+/* BODY STYLE */
 
+/* INTERFACE STYLE */
 .interface {
     max-width: 1280px;
     margin: 0 auto;
 }
+/* INTERFACE STYLE */
 
+/* FLEX STYLE */
 .flex {
     display: flex;
 }
+/* FLEX STYLE */
 
-/* BODY */
+
+/* FIM BODY */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 /* HEADER STYLE */
-
 
 /* HEADER MENU */
 header {
@@ -66,10 +89,7 @@ header>.interface {
     align-items: center;
     justify-content: space-between;
 }
-
 /* HEADER MENU */
-
-
 
 /* HEADER LINKS */
 header a {
@@ -102,7 +122,6 @@ header nav ul li {
     text-shadow: #189099b4 2px 2px 4px;
    
 }
-
 /* HEADER LINKS */
 
 /* ESTILO BOTÃO CONTATO */
@@ -117,8 +136,14 @@ header nav ul li {
     background-color: #189199;
     color: white;
 }
-
 /* ESTILO BOTÃO */
+
+
+/* FIM HEADER STYLE */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* HOME */
 
@@ -134,7 +159,6 @@ section.home .flex {
     justify-content: center;
     gap: 80px;
 }
-
 /* SECTION HOME */
 
 
@@ -152,7 +176,6 @@ section.home .flex {
     font-size: 40px;
     text-shadow: #189199 0px 0px 10px;
 }
-
 /* TEXTS HOME */
 
 
@@ -182,7 +205,6 @@ section.home .flex {
 .redes a:hover>i {
     transform: scale(1.1);
 }
-
 /* REDES HOME */
 
 
@@ -204,10 +226,7 @@ section.home .flex {
         transform: translateY(25px);
     }
 }
-
 /* IMG HOME */
-
-
 
 
 /* BOTÃO DE CV */
@@ -225,10 +244,13 @@ section.home .flex {
     color: #189199;
     transition: 0.5s;
 }
-
 /* BOTÃO DE CV */
 
+
 /* FIM HOME */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 /* SOBRE MIM */
@@ -243,8 +265,8 @@ section.about-me .flex {
     align-items: center;
     gap: 100px;
 }
-
 /* ESTILO SEÇÃO "SOBRE" */
+
 
 /* FOTO */
 .minha-foto img {
@@ -257,8 +279,8 @@ section.about-me .flex {
 .minha-foto img:hover {
     transform: scale(1.1);
 }
-
 /* FOTO */
+
 
 /* TEXTO ABOUT ME */
 .about-me .txt-about {
@@ -278,12 +300,18 @@ section.about-me .flex {
     text-align: justify;
     width: 90%;
 }
-
 /* TEXTO ABOUT ME*/
-/* SOBRE MIM */
+
+
+/* FIM SOBRE MIM */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* SKILLS */
 
+/* SEÇÃO SKILLS STYLE */
 section.skills {
     padding: 40px 4%;
     padding-top: 7rem;
@@ -292,7 +320,10 @@ section.skills {
 section.skills .flex {
     gap: 60px;
 }
+/* SEÇÃO SKILLS STYLE */
 
+
+/* STYLE SKILL BOX */
 .skills .skill-box {
     color: white;
     padding: 40px;
@@ -327,11 +358,18 @@ section.skills .flex {
     font-weight: 200;
     text-align: justify;
 }
+/* STYLE SKILL BOX */
 
-/* SKILLS */
+
+/* FIM SKILLS */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* PROJETOS */
 
+/* SEÇÃO PROJETO STYLE */
 section.projetos{
     padding: 40px 4%;
     padding-top: 7rem;
@@ -340,7 +378,10 @@ section.projetos{
 section.projetos .flex{
     gap: 60px;
 }
+/* SEÇÃO PROJETO STYLE */
 
+
+/* PROJETOS BOX STYLE */
 .projetos .projetos-box{
     color: white;
     padding: 40px;
@@ -374,17 +415,27 @@ section.projetos .flex{
     font-size: 20px;
     font-weight: 200;
 }
+/* PROJETOS BOX STYLE */
 
-/* PROJETOS */
+
+/* FIM PROJETOS */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* CONTATO */
 
+/* SEÇÃO CONTATOS STYLE */
 section.contatos{
     padding: 40px 4%;
     padding-top: 7rem;
     
 }
+/* SEÇÃO CONTATOS STYLE */
 
+
+/* SEÇÃO FALE COMIGO STYLE */
 .talk-to-me{
     text-align: center;
     padding-bottom: 40px;
@@ -399,7 +450,10 @@ section.contatos{
 .talk-to-me span{
     color: #189199;
 }
+/* SEÇÃO FALE COMIGO STYLE */
 
+
+/* CONTATO STYLE */
 .contact{
     display: flex;
     justify-content: center;
@@ -438,22 +492,29 @@ section.contatos{
 .email a:hover{
     color: #ffffff;
 }
-/* CONTATO */
+/* CONTATO STYLE */
+
+
+/* FIM SEÇÃO CONTATOS */
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* FOOTER */
 
+/* FOOTER STYLE */
 footer {
     padding: 50px 4%;
     box-shadow: 0px 2px 8px #189199;
     
 }
 
-
-
 footer .flex{
     justify-content: space-between;
 }
+/* FOOTER STYLE */
 
+/* BLOCO STYLE */
 .bloco-a h3{
     color: #a09a9a;
     font-weight: 300;
@@ -482,6 +543,25 @@ footer .flex{
 .redes-rodaepe a:hover>i {
     transform: scale(1.1);
 }
+/* BLOCO STYLE */
 
 /* FIM FOOTER */
 
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ESTILO SCROLL */
+
+::-webkit-scrollbar{
+    background-color: #263038;
+    width: 7px;;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #189099b9;   
+    width: 5px;
+    border-radius: 5px;
+}
+
+/* ESTILO SCROLL */
