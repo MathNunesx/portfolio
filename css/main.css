@@ -151,7 +151,7 @@ header nav ul li {
 section.home {
     padding: 40px 4%;
     padding-top: 200px;
-    padding-bottom: 11rem;
+    padding-bottom: 15rem;
 }
 
 section.home .flex {
@@ -560,7 +560,7 @@ footer .flex{
 
 ::-webkit-scrollbar-thumb{
     background-color: #189099b9;   
-    width: 5px;
+    width: 2px;
     border-radius: 5px;
 }
 
