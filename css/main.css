@@ -111,11 +111,11 @@ header a:hover {
     transform: scale(1.05);
 }
 
-header nav ul {
+header nav.menu ul {
     list-style: none;
 }
 
-header nav ul li {
+header nav.menu ul li {
     display: inline-block;
     padding: 0 30px;
 }
@@ -146,6 +146,67 @@ header nav ul li {
 
 /* ESTILO BOTÃO */
 
+/* ESTILO MENU MOBILE */
+
+.menu-bars i{
+    color: #189199;
+    font-size: 35px;
+}
+.mobile-menu{
+    background-color: #06111a;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .4s;
+}
+.mobile-menu.open-menu{
+    width: 65%;
+}
+
+.mobile-menu.open-menu ~ .menu-overlay{
+    display: block;
+}
+
+.mobile-menu nav ul{
+    text-align: center;
+    list-style: none;
+}
+
+.mobile-menu nav ul li a{
+    font-size: 18px;
+    padding: 30px;
+    display: block;
+}
+
+.mobile-menu nav ul li a:hover{
+    background-color: #263038;
+}
+
+
+.mobile-menu .close-btn {
+    padding: 20px 5%;
+}
+.mobile-menu .close-btn i{
+    color: #189199;
+    font-size: 30px;
+
+}
+
+.menu-overlay{
+    background-color: #00000081;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+/* ESTILO MENU MOBILE */
 
 /* FIM HEADER STYLE */
 
@@ -614,6 +675,8 @@ footer .flex {
     .menu {
         display: none;
     }
+
+
     /*  HEADER */
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -836,7 +899,7 @@ footer .flex {
         font-size: 15px;
         font-weight: 300;
     }
-
+    
     /* CONTATO */
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
