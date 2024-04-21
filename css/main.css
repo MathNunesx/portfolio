@@ -40,7 +40,7 @@ h2.titulos {
 
 /* BODY STYLE */
 body {
-    background-image: linear-gradient(45deg, #06111a, #263038);
+    background-image: linear-gradient(45deg, #030608, #192127);
     height: 100vh;
     background-attachment: fixed;
 }
@@ -151,6 +151,7 @@ header nav.menu ul li {
 .menu-bars i{
     color: #189199;
     font-size: 35px;
+    display: none;
 }
 .mobile-menu{
     background-color: #06111a;
@@ -676,6 +677,9 @@ footer .flex {
         display: none;
     }
 
+    .menu-bars i{
+        display: block;
+    }
 
     /*  HEADER */
 
